@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aditya Singh - Web Developer Portfolio</title>
+
+  <!-- Canonical + Basic SEO -->
+  <link rel="canonical" href="https://aditya-portfolio.netlify.app/">
+  <meta name="title" content="Aditya Singh - Web Developer Portfolio">
+  <meta name="description" content="Hi, I'm Aditya Singh — a Web Developer skilled in HTML, CSS, and JavaScript. Explore my projects, skills, education, and contact details.">
+  <meta name="keywords" content="Aditya Singh, Web Developer, Portfolio, HTML, CSS, JavaScript, BCA, India">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Aditya Singh">
+
+  <!-- Open Graph / Social Preview -->
+  <meta property="og:title" content="Aditya Singh - Portfolio">
+  <meta property="og:description" content="Web Developer portfolio showcasing projects and skills.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aditya-portfolio.netlify.app/">
+  <meta property="og:image" content="https://aditya-portfolio.netlify.app/profile.png.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Theme Toggle -->
+  <!-- <button id="toggle-theme" aria-label="Toggle theme">🌙</button> -->
+
+  <!-- Home / Hero -->
+  <section id="home" class="container home-section">
+    <div class="home-content">
+      <div class="home-text">
+        <h1>Welcome to <span>Aditya's Portfolio</span></h1>
+        <h2>I build <span id="typing"></span></h2>
+        <p>A passionate web developer creating responsive and user-friendly websites.</p>
+
+        <div class="home-buttons" aria-label="Primary actions">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+
+        <!-- Calculator Badge -->
+        <p class="badges">
+          <a class="pill" href="https://calculatorbyaadi.netlify.app/" target="_blank" rel="noopener">🔢 View Calculator</a>
+        </p>
+      </div>
+
+      <div class="home-image">
+        <img src="my image.jpg" alt="Aditya Singh profile photo" class="profile-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Navigation -->
+  <nav aria-label="Main">
+    <ul class="container">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="container scroll-section">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="profile.png.jpg" alt="Profile photo" class="profile-img">
+      <p>Hello! I'm Aditya Singh, a web developer and designer. I enjoy creating clean, interactive, and responsive websites.
+        Currently, I am a BCA 1st-year student, learning HTML, CSS, JavaScript, and basic C programming.
+        My goal is to build efficient and user-friendly websites while continuously improving my skills.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container scroll-section">
+    <h2>Skills</h2>
+    <div class="skill">
+      <h3>HTML</h3>
+      <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+    </div>
+    <div class="skill">
+      <h3>CSS</h3>
+      <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+    </div>
+    <div class="skill">
+      <h3>JavaScript</h3>
+      <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+    </div>
+    <div class="skill">
+      <h3>C Programming</h3>
+      <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+    </div>
+  </section>
+
+  <!-- Education (with images) -->
+  <section id="education" class="container scroll-section">
+    <h2>Education</h2>
+
+    <div class="timeline">
+      <!-- School -->
+      <div class="timeline-item">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <img src="images.jpg" loading="lazy" alt="Durga Prasad Vidhya Niketan campus" class="edu-img" />
+          <h3>DurgaPrasad VidyaNiketan</h3>
+          <span>High School</span>
+          <p>Completed my 10th and 12th with a strong foundation in computer basics and mathematics. Participated in academic and technical activities.</p>
+        </div>
+      </div>
+
+      <!-- BCA -->
+      <div class="timeline-item">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <img src="images (1).jpg" loading="lazy" alt="BCA college photo" class="edu-img" />
+          <h3>BCA (Bachelor of Computer Applications)</h3>
+          <span>Current</span>
+          <p>Pursuing BCA (1st Year) with a focus on programming and web development: HTML, CSS, JavaScript, and C programming.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container scroll-section">
+    <h2>Projects</h2>
+
+    <!-- Project 1 (Live Demo removed) -->
+    <div class="project">
+      <img src="project.png.png" loading="lazy" alt="Interactive Form Page preview" class="project-img">
+      <div>
+        <h3>Interactive Form Page</h3>
+        <p>A responsive, user-friendly form page built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+
+    <!-- Project 2 (Live Demo removed) -->
+    <div class="project">
+      <img src="project02.png.png" loading="lazy" alt="Zomato clone preview" class="project-img">
+      <div>
+        <h3>Zomato Clone</h3>
+        <p>A responsive Zomato website clone using HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+
+    <!-- Project 3: Calculator (Live on Netlify) -->
+    <div class="project">
+      <img src="calculator.png.jpg" loading="lazy" alt="Calculator app preview" class="project-img">
+      <div>
+        <h3>Calculator</h3>
+        <p>A clean, responsive calculator with modern UI — hosted on Netlify.</p>
+        <div class="btn-row">
+          <a href="https://calculatorbyaadi.netlify.app/" class="btn btn-secondary" target="_blank" rel="noopener">Open Project</a>
+          <button class="btn-quick" type="button" onclick="openCalcPreview()">Quick Preview</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+<section id="contact" class="container scroll-section">
+  <h2>Contact Me</h2>
+
+  <div class="contact-wrapper">
+    <!-- SUCCESS/ERROR MESSAGES (hidden by default) -->
+    <p id="form-success" style="display:none;">✅ Thanks! Your message has been sent.</p>
+    <p id="form-error" style="display:none;">❌ Oops! Please try again later.</p>
+
+    <form id="contact-form"
+          class="contact-form"
+          action="https://formspree.io/f/xzznpqqy"
+          method="POST">
+      <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+      <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+      <textarea name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
+
+      <!-- Optional extras -->
+      <input type="hidden" name="page" value="portfolio-contact">
+      <!-- Honeypot (spam trap): keep empty -->
+      <input type="text" name="website" style="display:none">
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>Get in Touch</h3>
+      <p>Email: <a href="mailto:singhadi0655@gmail.com">singhadi0655@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/_aadi_singhh" target="_blank" rel="noopener">@_aadi_singhh</a></p>
+      <p>GitHub: <a href="https://github.com/aadisinghh" target="_blank" rel="noopener">aadisinghh</a></p>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Aditya Singh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Calculator Quick Preview Modal -->
+  <div id="calc-overlay" class="overlay hidden" aria-hidden="true"></div>
+  <div id="calc-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="calc-title">
+    <div class="modal-header">
+      <h2 id="calc-title">Calculator – Live Preview</h2>
+      <button class="btn-close" onclick="closeCalcPreview()" aria-label="Close preview">&times;</button>
+    </div>
+    <div class="modal-body modal-body-frame">
+      <iframe
+        src="https://calculatorbyaadi.netlify.app/"
+        title="Calculator Preview"
+        loading="lazy"
+        sandbox="allow-scripts allow-same-origin"
+      ></iframe>
+    </div>
+  </div>
+
+  <!-- JSON-LD (Structured Data) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Aditya Singh",
+    "url":"https://aditya-portfolio.netlify.app/",
+    "image":"https://aditya-portfolio.netlify.app/profile.png.jpg",
+    "jobTitle":"Web Developer",
+    "sameAs":[
+      "https://github.com/aadisinghh",
+      "https://instagram.com/_aadi_singhh"
+    ]
+  }
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
